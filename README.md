@@ -8,6 +8,8 @@
 
 3. Auto-generate sandbox Paypal accounts: https://developer.paypal.com/developer/accounts/ 
 
+The default business is the seller. The default personal is the buyer.
+
 ![](https://raw.githubusercontent.com/atabegruslan/Magento/v2/Illustrations/paypal.png)
 
 4. Install Magento. Then go to the admin size and start setting up:
