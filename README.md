@@ -29,3 +29,11 @@ Copy over Paypal's sandbox seller account's: email, username, secret & API signa
 8. Go shopping - Result: https://ruslan-website.com/misc/magento_demo1_result_video/
 
 9. Only after you submit the order's invoice, you would see the transfer of money from buyer's account to the seller's account.
+
+---
+
+## Common problems:
+
+- https://magento.stackexchange.com/questions/37647/admin-not-working-in-localhost
+- https://magento.stackexchange.com/questions/251926/magento-2-3-its-not-working-properly-in-localhost
+- It's much more convenient not to have Magento on Windows
