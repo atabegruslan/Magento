@@ -26,9 +26,11 @@ Copy over Paypal's sandbox seller account's: email, username, secret & API signa
 
 7. Create a new user at the frontend.
 
-8. Go shopping - Result: https://ruslan-website.com/misc/magento_demo1_result_video/
+8. Go shopping. When it's time to pay by Paypal, use Paypal's sandbox buyer account's username & secret.
 
-9. Only after you submit the order's invoice, you would see the transfer of money from buyer's account to the seller's account.
+9. Result: https://ruslan-website.com/misc/magento_demo1_result_video/
+
+10. Only after you submit the order's invoice, you would see the transfer of money from buyer's account to the seller's account.
 
 ---
 
