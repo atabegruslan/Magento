@@ -1,4 +1,6 @@
-# Simple start to end demo
+# Magento v1
+
+## Simple start to end demo
 
 ![](https://raw.githubusercontent.com/atabegruslan/Magento/master/Illustrations/mag1.PNG)
 
@@ -93,6 +95,6 @@
 ![](https://raw.githubusercontent.com/atabegruslan/Magento/master/Illustrations/mag47.PNG)
 
 
-# Changing Magento language
+## Changing Magento language
 
 ![](https://raw.githubusercontent.com/atabegruslan/Magento/master/Illustrations/mag_lang1.PNG)
