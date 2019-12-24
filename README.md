@@ -2,7 +2,7 @@
 
 ## Simple start to end demo
 
-1. SignUp to Magento: https://developer.paypal.com/developer/accounts/ and download Magento
+1. SignUp to Magento: https://magento.com/tech-resources/download and download Magento
 
 2. SignUp to Paypal: https://www.paypal.com/en/webapps/mpp/country-worldwide , https://www.paypal.com/vn/signin
 
