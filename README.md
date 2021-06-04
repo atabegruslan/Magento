@@ -66,6 +66,22 @@ Copy over Paypal's sandbox seller account's: email, username, secret & API signa
 </config>
 ```
 
+### The 'meat' of the module
+
+...
+
+### Publish
+
+After creating all the necessary files run the below CLI commands:
+1. php bin/magento setup:upgrade
+2. php bin/magento cache:clean
+3. php bin/magento indexer:reindex
+
+If you found that the CSS and JS files are missing after running the upgrade, run :
+4. php bin/magento setup:static-content:deploy
+
+### Watch Tutorials
+
 1. https://www.youtube.com/watch?v=aT1AnhDzYYM
 2. https://www.youtube.com/watch?v=CwsxIQLuvBU
 
