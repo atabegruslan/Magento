@@ -40,6 +40,32 @@ Copy over Paypal's sandbox seller account's: email, username, secret & API signa
 
 ## Modules
 
+### Skeleton
+
+- app/code/Namespace/ModuleName/
+    - registration.php
+    - etc/
+        - module.xml
+
+`registration.php`
+```php
+<?php
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::MODULE,
+    'Namespace_ModuleName',
+    __DIR__
+);
+```
+
+`etc/module.xml`
+```xml
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Namespace_ModuleName" setup_version="1.0.0"/>
+</config>
+```
+
 1. https://www.youtube.com/watch?v=aT1AnhDzYYM
 2. https://www.youtube.com/watch?v=CwsxIQLuvBU
 
