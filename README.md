@@ -36,6 +36,11 @@ Copy over Paypal's sandbox seller account's: email, username, secret & API signa
 
 ---
 
+## Modules
+
+1. https://www.youtube.com/watch?v=aT1AnhDzYYM
+2. https://www.youtube.com/watch?v=CwsxIQLuvBU
+
 ## Common problems:
 
 - https://magento.stackexchange.com/questions/37647/admin-not-working-in-localhost
