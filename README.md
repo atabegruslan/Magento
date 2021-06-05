@@ -9,6 +9,10 @@ https://www.youtube.com/playlist?list=PLJ1EBN1Sm2mAaamk0eGoOz-7givyXqaco
     - Download zip at: https://www.mageplaza.com/download-magento/
     - Clone Guthub repo: https://github.com/magento/magento2/
 
+Preliminaries:
+- If visit `{domain}/project_name/setup/` and see `Please note Magento Web Setup Wizard has been removed since version 2.3.7.`, then: https://community.magento.com/t5/Magento-2-x-Technical-Issues/Web-Setup-Wizard-option-missing-in-Magento-2-3/m-p/122273#M8249
+- 
+
 2. SignUp to Paypal: https://www.paypal.com/en/webapps/mpp/country-worldwide , https://www.paypal.com/vn/signin
 
 3. Auto-generate sandbox Paypal accounts: https://developer.paypal.com/developer/accounts/ 
