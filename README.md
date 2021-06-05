@@ -20,7 +20,7 @@ Preliminaries:
         --admin-user=admin --admin-password=admin123 --language=en_US \
         --currency=USD --timezone=America/Chicago
         ```
-    - You will see `app/etc/env.php` created.
+    - You will see `app/etc/env.php` created. You will find your admin URL in there under `backend.frontName`. You can then log into the admin backoffice by visiting `{domain}/magento2/{admin_uri}` with the `admin-user & admin-password` provided above.
 
 2. SignUp to Paypal: https://www.paypal.com/en/webapps/mpp/country-worldwide , https://www.paypal.com/vn/signin
 
