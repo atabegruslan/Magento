@@ -4,7 +4,10 @@
 
 https://www.youtube.com/playlist?list=PLJ1EBN1Sm2mAaamk0eGoOz-7givyXqaco
 
-1. SignUp to Magento: https://magento.com/tech-resources/download and download Magento
+1. Get Magento: https://www.mageplaza.com/devdocs/how-install-magento-2-ubuntu.html
+    - SignUp to Magento: https://magento.com/tech-resources/download then https://devdocs.magento.com/guides/v2.4/install-gde/composer.html
+    - Download zip at: https://www.mageplaza.com/download-magento/
+    - Clone Guthub repo: https://github.com/magento/magento2/
 
 2. SignUp to Paypal: https://www.paypal.com/en/webapps/mpp/country-worldwide , https://www.paypal.com/vn/signin
 
