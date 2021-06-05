@@ -10,8 +10,8 @@ https://www.youtube.com/playlist?list=PLJ1EBN1Sm2mAaamk0eGoOz-7givyXqaco
     - Clone Guthub repo: https://github.com/magento/magento2/
 
 Preliminaries:
-- If visit `{domain}/project_name/setup/` and see `Please note Magento Web Setup Wizard has been removed since version 2.3.7.`, then: https://community.magento.com/t5/Magento-2-x-Technical-Issues/Web-Setup-Wizard-option-missing-in-Magento-2-3/m-p/122273#M8249
-- 
+- If visit `{domain}/project_name/setup/` and see `Please note Magento Web Setup Wizard has been removed since version 2.3.7.`, `//$menu->remove('Magento_Backend::setup_wizard');` won't work. 
+    - Instead see: https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html . In other words: Use CLI to setup (ie: `bin/magento  whatever_commands`)
 
 2. SignUp to Paypal: https://www.paypal.com/en/webapps/mpp/country-worldwide , https://www.paypal.com/vn/signin
 
