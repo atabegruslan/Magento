@@ -21,6 +21,7 @@ Preliminaries:
         --currency=USD --timezone=America/Chicago
         ```
     - You will see `app/etc/env.php` created. You will find your admin URL in there under `backend.frontName`. You can then log into the admin backoffice by visiting `{domain}/magento2/{admin_uri}` with the `admin-user & admin-password` provided above.
+- In `app/etc/di.xml`: Change `<item name="view_preprocessed" xsi:type="object">Magento\Framework\App\View\Asset\MaterializationStrategy\Symlink</item>` to `<item name="view_preprocessed" xsi:type="object">Magento\Framework\App\View\Asset\MaterializationStrategy\Copy</item>`
 
 2. SignUp to Paypal: https://www.paypal.com/en/webapps/mpp/country-worldwide , https://www.paypal.com/vn/signin
 
