@@ -85,7 +85,10 @@ Copy over Paypal's sandbox seller account's: email, username, secret & API signa
 
 ### The 'meat' of the module
 
-...
+This is 1 example: https://bsscommerce.com/blog/create-admin-menu-in-magento-2/
+- https://www.mageplaza.com/magento-2-module-development/create-admin-menu-magento-2.html
+- https://www.mageplaza.com/magento-2-module-development/
+- https://www.mageplaza.com/magento-2-module-development/magento-2-routing.html#admin-route
 
 ### Publish
 
@@ -101,10 +104,6 @@ php bin/magento setup:static-content:deploy # If you found that the CSS and JS f
 
 1. https://www.youtube.com/watch?v=aT1AnhDzYYM
 2. https://www.youtube.com/watch?v=CwsxIQLuvBU
-3. https://bsscommerce.com/blog/create-admin-menu-in-magento-2/
-4. https://www.mageplaza.com/magento-2-module-development/create-admin-menu-magento-2.html
-5. https://www.mageplaza.com/magento-2-module-development/
-6. https://www.mageplaza.com/magento-2-module-development/magento-2-routing.html#admin-route
 
 ## Common problems:
 
