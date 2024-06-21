@@ -23,21 +23,15 @@ Preliminaries:
     - You will see `app/etc/env.php` created. You will find your admin URL in there under `backend.frontName`. You can then log into the admin backoffice by visiting `{domain}/magento2/{admin_uri}` with the `admin-user & admin-password` provided above.
 - In `app/etc/di.xml`: Change `<item name="view_preprocessed" xsi:type="object">Magento\Framework\App\View\Asset\MaterializationStrategy\Symlink</item>` to `<item name="view_preprocessed" xsi:type="object">Magento\Framework\App\View\Asset\MaterializationStrategy\Copy</item>`
 
-2. SignUp to Paypal: https://www.paypal.com/en/webapps/mpp/country-worldwide , https://www.paypal.com/vn/signin
+2. SignUp to Paypal: https://github.com/atabegruslan/Others/blob/master/Development/ec.md#paypal
 
-3. Auto-generate sandbox Paypal accounts: https://developer.paypal.com/developer/accounts/ 
+3. Install Magento. Then go to the admin size and start setting up:
 
-The default business is the seller. The default personal is the buyer.
-
-![](https://raw.githubusercontent.com/atabegruslan/Magento/v2/Illustrations/paypal.png)
-
-4. Install Magento. Then go to the admin size and start setting up:
-
-5. Catalog > Product > Create new Product
+4. Catalog > Product > Create new Product
 
 ![](https://raw.githubusercontent.com/atabegruslan/Magento/v2/Illustrations/product.png)
 
-6. Connect Magento to Paypal: Store > Setting > Configuration. Sales > Payment Methods. Other Paypal Payment Solutions > Payments Standard.
+5. Connect Magento to Paypal: Store > Setting > Configuration. Sales > Payment Methods. Other Paypal Payment Solutions > Payments Standard.
 
 Copy over Paypal's sandbox seller account's: email, username, secret & API signature.
 
@@ -45,13 +39,13 @@ Copy over Paypal's sandbox seller account's: email, username, secret & API signa
 
 ![](https://raw.githubusercontent.com/atabegruslan/Magento/v2/Illustrations/paypal_setup_2.png)
 
-7. Create a new user at the frontend.
+6. Create a new user at the frontend.
 
-8. Go shopping. When it's time to pay by Paypal, use Paypal's sandbox buyer account's username & secret.
+7. Go shopping. When it's time to pay by Paypal, use Paypal's sandbox buyer account's username & secret.
 
-9. Result: https://github.com/atabegruslan/Magento/blob/v2/Illustrations/magento_demo_1.mp4
+8. Result: https://github.com/atabegruslan/Magento/blob/v2/Illustrations/magento_demo_1.mp4
 
-10. Only after you submit the order's invoice, you would see the transfer of money from buyer's account to the seller's account.
+9. Only after you submit the order's invoice, you would see the transfer of money from buyer's account to the seller's account.
 
 ---
 
